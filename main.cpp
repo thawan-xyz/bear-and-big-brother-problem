@@ -14,7 +14,6 @@ int main() {
         bobWeight *= 2;
         numYears += 1;
     }
-
     cout << numYears;
     return 0;
 }
