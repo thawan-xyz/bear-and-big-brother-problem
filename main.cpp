@@ -10,8 +10,8 @@ int main() {
 
     int numYears = 0;
     while (limakWeight <= bobWeight) {
-        limakWeight += 3;
-        bobWeight += 2;
+        limakWeight *= 3;
+        bobWeight *= 2;
         numYears += 1;
     }
 
